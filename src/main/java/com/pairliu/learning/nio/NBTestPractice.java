@@ -25,7 +25,7 @@ public class NBTestPractice {
         
         //So the double loop is inevitable
         while ( true ) {
-            s.select();
+            s.select(); //This call is a block call
             
             Set<SelectionKey> keys = s.selectedKeys(); //It is better to directly return the iterator
             Iterator<SelectionKey> it = keys.iterator();
