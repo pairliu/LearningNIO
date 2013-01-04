@@ -8,7 +8,6 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 import java.util.Set;
-import java.util.logging.Handler;
 
 public class Reactor implements Runnable {
 
